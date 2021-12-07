@@ -59,8 +59,7 @@
 			uncomfortable - there will be a local option provided soon enough! For those savvy in code,
 			all the BotHermione code is now open source, and can be found <a
 				href="https://github.com/kanashter/BotHermione/tree/main/wrapped">here.</a
-			> This function uses a Flask container running on a micro EC2 service online to perform the following
-			actions:
+			> This function uses a Flask container Heroku to perform the following actions:
 		</p>
 		<ul>
 			<li>Log into your account</li>
