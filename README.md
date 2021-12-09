@@ -30,4 +30,4 @@ AO3 wrapped is a frontend display to parse a users 2021 on AO3. The page request
 - Parses information
 - Returns an object containing details about their time online.
 
-This function can be seen in the [bothermione_ao3wrapped repository](https://github.com/kanashter/bothermione-ao3wrapped). No details about the user are stored or logged.
+This function can be seen in the [bothermione_ao3wrapped repository](https://github.com/kanashter/bothermione-flask). No details about the user are stored or logged.
