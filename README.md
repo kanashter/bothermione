@@ -1,5 +1,7 @@
 # BOTHERMIONE
 
+![image](https://repository-images.githubusercontent.com/436434470/a28b29f8-4594-45c0-99fa-364d3549fcd7)
+
 BotHermione is a SvelteKit deployment for the extended BotHermione universe. It has the following abilities
 
 - [ML Generated Fics](src/routes/fics)
