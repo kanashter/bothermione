@@ -158,13 +158,27 @@
 					</div>
 				</div>
 			{:catch}
-				<div class="container login">
-					<h1>
-						Looks like there was a server error! If you're positive you got your password right,
-						please try again later!
-					</h1>
-					<button on:click={() => (loaded = false)}> Show me the dirt </button>
-				</div>
+				<h1>
+					Looks like there was a server error! If you're positive you got your password right,
+					please try again later!
+				</h1>
+				<p>
+					If you're getting this error a lot, it means the server is currently being denied access
+					to AO3. This usually refreshes after 10 minutes, but this has been so popular I can't
+					ensure that's going to be the case.
+				</p>
+				<p>
+					There is a solution, if you're on a windows machine, I've made a local version of this
+					that will run on your PC.
+				</p>
+				<p>
+					<a href="https://github.com/kanashter/bothermione-ao3wrapped/releases/tag/v1.0.0"
+						>You can download it here</a
+					>
+				</p>
+				<p>
+					<button on:click={() => (loaded = false)}>Try Again</button>
+				</p>
 			{/await}
 		</div>
 	{:else}
