@@ -1,38 +1,31 @@
-# create-svelte
+# BOTHERMIONE
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+BotHermione is a SvelteKit deployment for the extended BotHermione universe. It has the following abilities
 
-## Creating a project
+- [ML Generated Fics](src/routes/fics)
+- [Random Linked AO3 Fics](src/routes/index.svelte)
+- [Data Analysis](src/routes/analysis)
+- [AO3 Wrapped (New!)](src/routes/wrapped)
 
-If you're seeing this, you've probably already done this step. Congrats!
+### ML Generated Fics
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+The fics themselves are not generated on the frontend. A micro EC2 instance runs once per day to generate a new fic, which is then stored in a Firebase realtime database. The [[slug].svelte](src/routes/fics/[slug].svelte) then dynamically loads this data to create a new page based on the passed route.
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
+### Random Linked AO3 Fics
 
-> Note: the `@next` is temporary
+These run functionally the same to the ML fics. The EC2 instance loads a random fic that contains Hermione as the primary relationship, generates a string and then saves to the same Firebase realtime database. These are cycled through automatically.
 
-## Developing
+### Data Analysis
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+A (admittedly very large) [.json file ](static/shrunk_db.json) contains heavily parsed and shrunk data about all fics stored in AO3 with Hermione as the primary relationship. This information can then be parsed using the [analysis](src/routes/analysis/fanfic_analysis.svelte)
 
-```bash
-npm run dev
+### AO3 Wrapped
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+AO3 wrapped is a frontend display to parse a users 2021 on AO3. The page requests username and password, and then sends this data to a Heroku deployment that performs the following actions:
 
-## Building
+- Logs in as the user
+- Reads their history
+- Parses information
+- Returns an object containing details about their time online.
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
-
-```bash
-npm run build
-```
-
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+This function can be seen in the [bothermione_ao3wrapped repository](https://github.com/kanashter/bothermione-ao3wrapped). No details about the user are stored or logged.
