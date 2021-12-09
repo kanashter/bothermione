@@ -37,9 +37,9 @@
 			"'Only Big Brain Winners read fanfic' - Albert Einstien",
 			"'Yes we can, we can read fanfic' - Barack Obama",
 			"'I have a dream, that one day Childhood friends and Enemies to lovers can sit at the same table for romance' - Martin Luther Kink Jr.",
-			'These are you 95 Thesis nailed to the door of the internet',
-			'get busy readin or get busy dyin',
-			"you're here to eat ass and read fanfic, and your all out of fanfic",
+			'These are your 95 Theses nailed to the door of the internet',
+			"get busy readin' or get busy dyin'",
+			"you're here to eat ass and read fanfic, and you're all out of fanfic",
 			'Make sure you left a comment telling the author how much you love it!'
 		];
 		return array[Math.floor(Math.random() * array.length)];
