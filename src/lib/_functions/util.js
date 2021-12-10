@@ -1,7 +1,7 @@
 import dayjs from 'dayjs';
 
 async function loadDb() {
-	const load = await fetch('https://bothermione.com/shrunk_db.json');
+	const load = await fetch('/shrunk_db.json');
 	let res = await load.json();
 	return res;
 }
