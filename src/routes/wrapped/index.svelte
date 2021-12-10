@@ -58,7 +58,7 @@
 			readers history beind their account. Smart - but annoying for making these. If it makes you
 			uncomfortable - there will be a local option provided soon enough! For those savvy in code,
 			all the BotHermione code is now open source, and can be found <a
-				href="https://github.com/kanashter/BotHermione/tree/main/wrapped">here.</a
+				href="https://github.com/kanashter/BotHermione/">here.</a
 			> This function uses a Flask container Heroku to perform the following actions:
 		</p>
 		<ul>
