@@ -69,11 +69,11 @@
 		<p>
 			And thats it. None of your details are stored on this website, nor are they on the server
 			performing this operation. I have enough trouble managing my own account - let alone other
-			users!
+			users! You can see a breakdown of it in detail <a href="/wrapped/retrospective_2021">here.</a>
 		</p>
 		<p>
 			But, if you're feeling brave - please log in below and see all the grimy details about your
-			2021 on AO3
+			2021 on AO3.
 		</p>
 	</div>
 	{#if loaded == true}
@@ -172,7 +172,7 @@
 					that will run on your PC.
 				</p>
 				<p>
-					<a href="https://github.com/kanashter/bothermione-ao3wrapped/releases/tag/v1.0.0"
+					<a href="https://github.com/kanashter/bothermione-ao3wrapped/releases/tag/v1.0.1"
 						>You can download it here</a
 					>
 				</p>
