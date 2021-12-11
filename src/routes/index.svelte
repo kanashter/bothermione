@@ -2,14 +2,14 @@
 	import { firebaseConfig } from '$lib/_database/firebaseConfig';
 	import firebase from 'firebase/compat/app';
 	import 'firebase/compat/database';
-	export function load({ page }) {
+	export function load() {
 		firebase.initializeApp(firebaseConfig);
 		async function collectDetails() {
 			let db = firebase
 				.database()
 				.ref('largefics')
 				.orderByKey()
-				.limitToLast(10)
+				.limitToLast(5)
 				.get()
 				.then((snapshot) => {
 					return snapshot.val();
@@ -45,7 +45,7 @@
 <div class="wrapper">
 	<div class="container">
 		<h1>BotHermione's Page</h1>
-		<img class="logo" src="images/logo.jpg" alt="BOTHERMIONE" />
+		<img class="logo" src="/images/logo.jpg" alt="BOTHERMIONE" />
 	</div>
 
 	<div class="row">

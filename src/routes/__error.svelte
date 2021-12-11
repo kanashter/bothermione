@@ -1,7 +1,7 @@
 <div class="wrapper">
 	<div class="container">
 		<h1>UH OH</h1>
-		<p>Not sure how you got here</p>
+		<p>Looks like something went wrong when trying to load the page!</p>
 		<a href="/">Better go back</a>
 		<img src="/images/lmao.jpg" alt="lmao" />
 	</div>

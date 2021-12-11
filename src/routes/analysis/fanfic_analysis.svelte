@@ -241,6 +241,19 @@
 
 <svelte:head>
 	<title>BotHermione - Fanfic Analysis</title>
+	<meta
+		name="Description"
+		content="BotHermione Presents - AO3 Wrapped. See your most read fic, themes and ships on AO3. No login details are stored."
+	/>
+	<meta property="og:title" content="BotHermione Presents - AO3 Wrapped" />
+	<meta
+		property="og:description"
+		content="See your most read fic, themes and ships on AO3. No login details are stored."
+	/>
+	<meta
+		property="og:image"
+		content="https://repository-images.githubusercontent.com/436434470/a28b29f8-4594-45c0-99fa-364d3549fcd7"
+	/>
 </svelte:head>
 <div class="wrapper">
 	<div class="container">
