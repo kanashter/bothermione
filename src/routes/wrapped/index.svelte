@@ -7,8 +7,19 @@
 	let u;
 	let p;
 
+	function generateUrl(u, p) {
+		let urls = [
+			`https://bothermione.herokuapp.com/?username=${u}&password=${p}`,
+			`https://bothermione2.herokuapp.com/?username=${u}&password=${p}`,
+			`https://bothermione3.herokuapp.com/?username=${u}&password=${p}`,
+			`https://bothermione4.herokuapp.com/?username=${u}&password=${p}`,
+			`https://bothermione5.herokuapp.com/?username=${u}&password=${p}`
+		];
+		return urls[Math.floor(Math.random() * urls.length)];
+	}
+
 	async function getWrapped(u, p) {
-		let url = `https://bothermione.herokuapp.com/?username=${u}&password=${p}`;
+		let url = generateUrl(u, p);
 		let request = await fetch(url, {
 			method: 'get'
 		});
@@ -52,6 +63,10 @@
 
 <div class="wrapper">
 	<h1>WRAPPED</h1>
+	<div class="imgWrapper">
+		<img src="/images/ao3_logo.png" alt="AO3 Logo" />
+		<img class="altImage" src="/images/logo.jpg" alt="BotHermione logo" />
+	</div>
 	<div class="container">
 		<p>
 			Hello and welcome to AO3 wrapped. I'm sorry this asks for your password, but AO3 locks a
@@ -319,6 +334,15 @@
 	}
 	.size-5 {
 		font-size: 1.2rem;
+	}
+	img {
+		height: 100px;
+	}
+	.altImage {
+		border-radius: 100px;
+	}
+	.imgWrapper {
+		display: flex;
 	}
 
 	@media only screen and (max-width: 600px) {
