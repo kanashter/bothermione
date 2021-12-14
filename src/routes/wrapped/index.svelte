@@ -187,7 +187,7 @@
 					Please give it a try!
 				</p>
 				<p>
-					<a href="https://github.com/kanashter/bothermione-ao3wrapped/releases/tag/v1.0.1"
+					<a href="https://github.com/kanashter/bothermione-ao3wrapped/releases/tag/v1.0.2"
 						>You can download it here</a
 					>
 				</p>
