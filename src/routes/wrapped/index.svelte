@@ -183,8 +183,8 @@
 					ensure that's going to be the case.
 				</p>
 				<p>
-					There is a solution, if you're on a windows machine, I've made a local version of this
-					that will run on your PC.
+					There is a solution, I've made a local version of this that will run on your computer.
+					Please give it a try!
 				</p>
 				<p>
 					<a href="https://github.com/kanashter/bothermione-ao3wrapped/releases/tag/v1.0.1"
