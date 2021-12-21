@@ -11,9 +11,7 @@
 		let urls = [
 			`https://bothermione.herokuapp.com/?username=${u}&password=${p}`,
 			`https://bothermione2.herokuapp.com/?username=${u}&password=${p}`,
-			`https://bothermione3.herokuapp.com/?username=${u}&password=${p}`,
-			`https://bothermione4.herokuapp.com/?username=${u}&password=${p}`,
-			`https://bothermione5.herokuapp.com/?username=${u}&password=${p}`
+			`https://bothermione3.herokuapp.com/?username=${u}&password=${p}`
 		];
 		return urls[Math.floor(Math.random() * urls.length)];
 	}
@@ -70,7 +68,7 @@
 	<div class="container">
 		<p>
 			Hello and welcome to AO3 wrapped. I'm sorry this asks for your password, but AO3 locks a
-			readers history beind their account. Smart - but annoying for making these. If it makes you
+			readers history behind their account. Smart - but annoying for making these. If it makes you
 			uncomfortable - there will be a local option provided soon enough! For those savvy in code,
 			all the BotHermione code is now open source, and can be found <a
 				href="https://github.com/kanashter/BotHermione/">here.</a
@@ -125,7 +123,7 @@
 						</h1>
 						.
 						<h3>
-							<br />You went back to it {data.most_visited.count}
+							<br />You went back to it {commaNum(data.most_visited.count)}
 							times.
 							<br />
 							{randomString()}
