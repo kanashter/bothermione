@@ -361,6 +361,24 @@ def resolve_request(username, password):
 			can actually run the function), and has the desired effect of avoiding the dreaded AO3 429 error.
 		</p>
 		<br />
+		<h1>Things truly went from bad, to worse</h1>
+		<p>
+			I expected the worst to be past me - however, I never actually expected the application to
+			spread as far, nor as wide as it did on twitter. It made the jump from the HP fandom, to
+			numerous other fandoms, where it began to disseminate. The kpop fans, the supernatural fans,
+			the marvel fans all found themselves clamouring to get ahold of their stats. The number of
+			requests made a jump. Not from 100k to 200k, but to 1m. A single server was no longer going to
+			cut it
+		</p>
+		<br /><br />
+		<p>
+			In a somewhat desperate attempt to lower the amount of people recieving errors I increased the
+			number of servers available from 1, to 5 and made the request jump through a single additional
+			function to choose randomly one of the five available servers. With 5 revolving IP's I thought
+			the load would be lowered somewhat, however with the site working more frequently, and the
+			main alternative implementing a queueing method, the site just got shared more quickly. I went
+			from having one server on fire, to having five servers on fire.
+		</p>
 		<h1>So, what was learnt?</h1>
 		<p>
 			Making the source code available was a good idea for user trust. While most people didnt even
@@ -378,9 +396,11 @@ def resolve_request(username, password):
 			AO3 would be smart. If anyone has any ideas, please do DM me on Twitter!
 		</p>
 		<p>
-			It's also clear that a cross platform, locally provided option (iOS/Android I'm looking at
-			you) would be good to have for next year. There were also some issues with how things
-			displayed on mobile devices (long usernames etc.), so UI/UX testing is a required function.
+			It's also clear that a cross platform, locally provided options with more mobile friendly
+			interfaces are absolutely necessary (iOS/Android I'm looking at you). Mobile proved to be by
+			far, the most popular device type used for this. Given I work in bloody ad tech you think this
+			would have been apparent to me at the beginning, especially with Twitter being used as the
+			dissemination method!
 		</p>
 		<p>Here's looking at you 2022, seems like it's going to be fun.</p>
 	</div>
