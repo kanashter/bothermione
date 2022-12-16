@@ -37,10 +37,12 @@
 		font-family: var(--serif-font);
 		font-style: italic;
 		pointer-events: none;
+		color: rgb(45, 42, 42);
 	}
 	p {
 		font-family: var(--sans-font);
 		pointer-events: none;
+		color: rgb(45, 42, 42);
 	}
 	.container {
 		border: 2px solid rgb(54, 54, 54);

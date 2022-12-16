@@ -41,6 +41,7 @@
 <style>
 	h1 {
 		font-family: var(--serif-font);
+		color: rgb(45, 42, 42);
 	}
 	.container {
 		margin-bottom: 2rem;

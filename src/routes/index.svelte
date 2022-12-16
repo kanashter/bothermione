@@ -100,10 +100,12 @@
 		font-style: italic;
 		z-index: 1;
 		mix-blend-mode: difference;
+		color: rgb(45, 42, 42);
 	}
 	p {
 		font-family: var(--serif-font);
 		font-style: italic;
+		color: rgb(45, 42, 42);
 	}
 	.logo {
 		width: 100px;

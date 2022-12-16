@@ -63,6 +63,7 @@
 		cursor: pointer;
 		width: 50px;
 		height: 50px;
+		filter: invert(90%) sepia(5%) saturate(775%) hue-rotate(314deg) brightness(91%) contrast(81%);
 	}
 	.menu {
 		position: fixed;
@@ -70,13 +71,14 @@
 		right: 0;
 		width: 20%;
 		height: 100vh;
-		background-color: rgb(54, 54, 54);
+		background-color: rgb(144, 123, 123);
 		z-index: 2;
 		overflow: hidden;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		font-family: var(--serif-font);
+		color: rgb(74, 54, 54);
 	}
 	.links {
 		height: 50%;

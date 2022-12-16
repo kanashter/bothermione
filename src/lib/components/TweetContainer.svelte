@@ -39,7 +39,7 @@
 	}
 	.container {
 		width: 80%;
-		border: 2px solid rgb(54, 54, 54);
+		border: 2px solid rgb(152, 84, 84);
 		padding: 10px;
 		border-radius: 10px;
 		text-align: center;
