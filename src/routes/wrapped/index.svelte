@@ -149,12 +149,14 @@
 			>
 		</p>
 		<p>
-			If the thought of providing your login details to a somewhat sketchy website makes you
-			uncomfortable however (I totally get it), there's a local version of the application that can
-			be downloaded for Mac and Windows <a
-				href="https://github.com/kanashter/bothermione-ao3wrapped/releases/tag/v1.0.2"
-				style="text-decoration: underline;">here</a
+			If you're having trouble due to a super long history, or servers being constantly overloaded,
+			feel free to try a local version of the app. Its available for <a
+				href="https://github.com/kanashter/bothermione-ao3wrapped/releases/tag/v1.0.3-windows"
+				>Windows</a
 			>
+			and
+			<a href="https://github.com/kanashter/bothermione-ao3wrapped/releases/tag/v1.0.3-mac">Mac</a>.
+			It performs the exact same functions, with details being stored on your local device instead.
 		</p>
 		<p>
 			But, if you're feeling brave - please log in below and see all the grimy details about your
