@@ -267,8 +267,13 @@
 					Please give it a try!
 				</p>
 				<p>
-					<a href="https://github.com/kanashter/bothermione-ao3wrapped/releases/tag/v1.0.2"
-						>You can download it here</a
+					<a href="https://github.com/kanashter/bothermione-ao3wrapped/releases/tag/v1.0.3-windows"
+						>Windows</a
+					>
+				</p>
+				<p>
+					<a href="https://github.com/kanashter/bothermione-ao3wrapped/releases/tag/v1.0.3-mac"
+						>Mac</a
 					>
 				</p>
 				<p>
