@@ -5,6 +5,10 @@ node_modules
 /package
 .env
 .env.*
-/static/images
+!.env.example
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
 
 .vercel
+/old
+/static/images
